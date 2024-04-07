@@ -75,3 +75,80 @@ html {
       width: 50%;
     }
   }
+
+  .m_bio img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .m_bio img {
+      width: 40%;
+    }
+  }
+
+  .fash_lehta img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .fash_lehta img {
+      width: 40%;
+    }
+  }
+
+  .fash_renda img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .fash_renda img {
+      width: 40%;
+    }
+  }
+
+  .gabionet img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .gabionet img {
+      width: 40%;
+    }
+  }
+
+  .m_beton img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .m_beton img {
+      width: 40%;
+    }
+  }
+
+  .m_gur img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .m_gur img {
+      width: 40%;
+    }
+  }
+
+  .m_argj img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .m_argj img {
+      width: 40%;
+    }
+  }
