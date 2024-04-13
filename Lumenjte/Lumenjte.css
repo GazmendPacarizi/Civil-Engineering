@@ -74,6 +74,10 @@ html {
     .imazhet_01 img {
       width: 50%;
     }
+
+    .imazhet_02 img {
+      width: 50%;
+    }
   }
 
   .m_bio img {
@@ -161,5 +165,20 @@ html {
   @media screen and (min-width: 768px) {
     .lum_sit img {
       width: 100%;
+    }
+  }
+
+  .th_kr img {
+    display: block;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .th_kr img {
+      width: 50%;
+    }
+
+    .p_tr img {
+      width: 50%;
     }
   }
