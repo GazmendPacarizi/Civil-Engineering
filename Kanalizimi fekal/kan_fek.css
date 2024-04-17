@@ -38,8 +38,17 @@ html {
     margin: auto;
 }
 
+.div2 img {
+    display: block;
+    margin: auto;
+}
+
 @media screen and (min-width: 768px) {
     .div1 img {
-        width: 50%;
+        width: 40%;
+    }
+
+    .div2 img {
+        width: 80%;
     }
 }
