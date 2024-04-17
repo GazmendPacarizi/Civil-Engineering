@@ -33,6 +33,10 @@ html {
     text-align: justify;
 }
 
+.div3 p {
+    text-align: justify;
+}
+
 .div1 img {
     display: block;
     margin: auto;
@@ -43,12 +47,44 @@ html {
     margin: auto;
 }
 
+.situacioni img, .profili_gjatesor img {
+    display: block;
+    margin: auto;
+}
+
+.profilet_terthore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pk1 img {
+    display: block;
+}
+
+.pk2 img {
+    display: block;
+}
+
+.pk3 img {
+    display: block;
+}
+
 @media screen and (min-width: 768px) {
     .div1 img {
         width: 40%;
     }
 
     .div2 img {
+        width: 80%;
+    }
+
+    .profili_gjatesor img {
+        width: 60%;
+    }
+
+    .pk1, .pk2, .pk3 {
         width: 80%;
     }
 }
