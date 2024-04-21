@@ -88,3 +88,7 @@ html {
         width: 80%;
     }
 }
+
+table th, tr, td {
+    text-align: center;
+}
