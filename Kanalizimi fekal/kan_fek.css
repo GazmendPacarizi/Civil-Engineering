@@ -87,8 +87,17 @@ html {
     .pk1, .pk2, .pk3 {
         width: 80%;
     }
+
+    .ngarkesat_kapakeve table {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 table th, tr, td {
     text-align: center;
+}
+
+p {
+    text-align: justify;
 }
