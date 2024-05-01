@@ -92,6 +92,11 @@ html {
         width: 80%;
         margin: auto;
     }
+
+    .imin table {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 table th, tr, td {
