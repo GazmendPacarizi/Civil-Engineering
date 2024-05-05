@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+  }
+  
+  .nav-item {
+      color: black;
+      font-size: 22px;
+  }
+  
+  .nav-item a:hover {
+      transform: scale(1.3);
+  }
+  
+   a.navbar-brand {
+      font-size: 22px;
+  }

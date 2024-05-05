@@ -38,6 +38,29 @@ html {
     text-align: center;
 }
 
+button {
+  margin-left: 10px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}
+button a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+button:hover a {
+  background-color: blue;
+  color: white;
+  transform: scale(1.2);
+}
+
+
   @media screen and (min-width: 768px) {
     .img_01 {
         width: 100%;
