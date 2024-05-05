@@ -14,7 +14,7 @@ document.getElementById("llog_gropa_septike").onclick = function() {
     let Nb = N0 * Math.pow((1 + Rrp / 100), Pp);
 
     // Furnizimi me uje
-    let Qf = q * Nb;
+    let Qf = (q * Nb) / 1000;
 
     // Prurja shkarkuese
     let Qsh = 0.8 * Qf;
@@ -41,9 +41,9 @@ document.getElementById("llog_gropa_septike").onclick = function() {
     let Ht = H + Hl;
 
     // Update HTML elements with results
-    document.getElementById("rez1").innerHTML = "Gjatësia e gropës septike është " + L.toFixed(2);
-    document.getElementById("rez2").innerHTML = W.toFixed(2);
-    document.getElementById("rez3").innerHTML = Ht.toFixed(2);
+    document.getElementById("rez1").innerHTML = "Gjatësia e gropës septike: " + L.toFixed(2) + " " +"m";
+    document.getElementById("rez2").innerHTML ="Gjerësia e gropës septike: " + W.toFixed(2) + " " + "m";
+    document.getElementById("rez3").innerHTML ="Lartësia e gropës septike: " + Ht.toFixed(2) + " " + "m";
 };
 
 
