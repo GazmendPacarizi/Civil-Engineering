@@ -20,3 +20,24 @@ html {
    a.navbar-brand {
       font-size: 22px;
   }
+
+  table {
+    width: 100%;
+    text-align: left;
+  }
+
+  button {
+    width: 180px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color:rgb(54, 165, 216);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  button:hover {
+    background-color: blue;
+    transform: scale(1.1);
+    color: white;
+  }
+  
