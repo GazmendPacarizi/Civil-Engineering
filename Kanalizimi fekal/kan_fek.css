@@ -37,6 +37,10 @@ html {
     text-align: justify;
 }
 
+p {
+    text-align: justify;
+}
+
 .div1 img {
     display: block;
     margin: auto;
@@ -71,6 +75,11 @@ html {
     display: block;
 }
 
+.thell_diametri img {
+    display: block;
+    margin: auto;
+}
+
 @media screen and (min-width: 768px) {
     .div1 img {
         width: 40%;
@@ -96,6 +105,10 @@ html {
     .imin table {
         width: 50%;
         margin: auto;
+    }
+
+    .thell_diametri img {
+        width: 70%;
     }
 }
 
