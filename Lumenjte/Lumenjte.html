@@ -386,6 +386,95 @@
                       </div>
                   </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                      Llogaritjet hidraulike të lumenjve
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                      <div class="accordion-body">
+                        <div class="container my-5">   
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <!--Per me rregullu karten mos me prish height, ja dhojme si height imazhit, pra style = height dhe jo width-->
+                                  <div class="card" style="height: 45rem;">
+                                      <h5 class="card-title text-center">Trapezoid channel</h5>
+                                      <br>
+                                      <img src="OPEN CHANNELS/IMAGES/1.jpg" class="card-img-top" alt="TRAPEZOID_CHANNEL">
+                                      <div class="card-body">
+                                              <label for="trap_base">Base B (m)</label><br>
+                                              <input type="text" id="trap_base" required> <br>
+                                              <label for="trap_side">Sideline A (m)</label><br>
+                                              <input type="text" id="trap_side" required><br>
+                                              <label for="trap_height">Height H (m)</label><br>
+                                              <input type="text" id="trap_height" required><br>
+                                              <label for="trap_slope">Slope i (percentage)</label><br>
+                                              <input type="text" id="trap_slope" required><br>
+                                              <label for="trap_friction">Manning coefficient n (number)</label><br>
+                                              <input type="text" id="trap_friction" required><br>
+                                              <button id="trap_calculation">Calculate</button><br>
+                                              <label for="trap_Area" id="trap_Area"></label><br>
+                                              <label for="trap_Perimeter" id="trap_Perimeter"></label><br>
+                                              <label for="trap_Radius" id="trap_Radius"></label><br>
+                                              <label for="trap_velocity" id="trap_velocity"></label><br>
+                                              <label for="trap_flow" id="trap_flow"></label><br>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4">
+                                  <div class="card" style="height: 45rem;">
+                                      <h5 class="card-title text-center">RECTANGULAR_CHANNEL</h5>
+                                      <br>
+                                      <img src="OPEN CHANNELS/IMAGES/2.jpg" class="card-img-top" alt="RECTANGULAR_CHANNEL">
+                                      <div class="card-body">
+                                              <label for="rec_base">Base B (m)</label><br>
+                                              <input type="text" id="rec_base" required> <br>
+                                              <label for="rec_height">Height H (m)</label><br>
+                                              <input type="text" id="rec_height" required><br>
+                                              <label for="rec_slope">Slope i (percentage)</label><br>
+                                              <input type="text" id="rec_slope" required><br>
+                                              <label for="rec_friction">Manning coefficient n (number)</label><br>
+                                              <input type="text" id="rec_friction" required><br>
+                                              <button id="rec_calculation">Calculate</button><br>
+                                              <label for="rec_Area" id="rec_Area"></label><br>
+                                              <label for="rec_Perimeter" id="rec_Perimeter"></label><br>
+                                              <label for="rec_Radius" id="rec_Radius"></label><br>
+                                              <label for="rec_velocity" id="rec_velocity"></label><br>
+                                              <label for="rec_flow" id="rec_flow"></label><br>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4">
+                                  <div class="card" style="height: 45rem;">
+                                      <h5 class="card-title text-center">HALF CIRCLE CHANNEL</h5>
+                                      <br>
+                                      <img src="OPEN CHANNELS/IMAGES/3.jpg" class="card-img-top" alt="HALFCIRCLE_CHANNEL">
+                                      <div class="card-body">
+                                              <label for="hcircle_diam">Diameter (m)</label><br>
+                                              <input type="text" id="hcircle_diam" required> <br>
+                                              <label for="hcircle_slope">Slope i (percentage)</label><br>
+                                              <input type="text" id="hcircle_slope" required><br>
+                                              <label for="hcircle_friction">Manning coefficient n (number)</label><br>
+                                              <input type="text" id="hcircle_friction" required><br>
+                                              <button id="hcircle_calculation">Calculate</button><br>
+                                              <label for="hcircle_Area" id="hcircle_Area"></label><br>
+                                              <label for="hcircle_Perimeter" id="hcircle_Perimeter"></label><br>
+                                              <label for="hcircle_Radius" id="hcircle_Radius"></label><br>
+                                              <label for="hcircle_velocity" id="hcircle_velocity"></label><br>
+                                              <label for="hcircle_flow" id="hcircle_flow"></label><br>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <script src="OPEN CHANNELS/JavaScript/trap_javascript.js"></script>
+                      <script src="OPEN CHANNELS/JavaScript/rec_javascript.js"></script>
+                      <script src="OPEN CHANNELS/JavaScript/hcircle_javascript.js"></script>
+                      </div>
+                  </div>
+                </div>
+
 
               </div>
             </div>
