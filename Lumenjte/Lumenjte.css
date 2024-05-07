@@ -181,5 +181,11 @@ html {
     .p_tr img {
       width: 50%;
     }
+
+    .tab_manning table {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 

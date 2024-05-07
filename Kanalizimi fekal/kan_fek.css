@@ -80,6 +80,11 @@ p {
     margin: auto;
 }
 
+.ujp_kf img {
+    display: block;
+    margin: auto;
+}
+
 @media screen and (min-width: 768px) {
     .div1 img {
         width: 40%;
@@ -117,5 +122,9 @@ table th, tr, td {
 }
 
 p {
+    text-align: justify;
+}
+
+p ul, li {
     text-align: justify;
 }

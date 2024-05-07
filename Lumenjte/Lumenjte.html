@@ -94,44 +94,47 @@
                           <li><b>Sforcimi në tërheqje:</b> paraqet forcën për njësi e cila vepron në shtrat të lumit. Kjo varet nga shumë faktorë si gjeometria e lumit, prurja dhe sedimentet. Rëndësia e studimit të sforcimeve në tërheqje qëndron në faktin e qëndrueshmërisë së shtratit nga lëvizja e sedimenteve që janë në fund të lumit.</li>
                           <li><b>Rezistenca e rrjedhjes:</b> paraqet rezistencën që i bën shtrati i lumit, rrjedhjes së ujit. Sa më rezistent shtrati i lumit, prurja e tij do të jetë më e vogël. Rezistenca varet nga lloji i materialit të shtratit të lumit. Në vijim kemi të paraqitur një tabelë me koeficientët e Manning-ut me vlerat e rezistencës për materialet e ndryshme.</li>
                         </ul>
-                        <table class="table table-striped table-hover">
-                          <tr>
-                            <th>Lloji i materialit</th>
-                            <th>Koeficienti i Manning - ut (n)</th>
-                          </tr>
-                          <tr>
-                            <td>Azbest çimento</td>
-                            <td>0.011</td>
-                          </tr>
-                          <tr>
-                            <td>Kubëza nga betoni</td>
-                            <td>0.011</td>
-                          </tr>
-                          <tr>
-                            <td>Plastikë</td>
-                            <td>0.009</td>
-                          </tr>
-                          <tr>
-                            <td>Kanal i pastër natyror</td>
-                            <td>0.022</td>
-                          </tr>
-                          <tr>
-                            <td>Kanal natyror me barishte</td>
-                            <td>0.030</td>
-                          </tr>
-                          <tr>
-                            <td>Gypat PEHD</td>
-                            <td>0.013</td>
-                          </tr>
-                          <tr>
-                            <td>Beton i lëmuar</td>
-                            <td>0.011</td>
-                          </tr>
-                          <tr>
-                            <td>Beton i palëmuar</td>
-                            <td>0.013</td>
-                          </tr>
-                        </table>
+                        <div class="tab_manning">
+                          <table class="table table-striped table-hover">
+                            <tr>
+                              <th>Lloji i materialit</th>
+                              <th>Koeficienti i Manning - ut (n)</th>
+                            </tr>
+                            <tr>
+                              <td>Azbest çimento</td>
+                              <td>0.011</td>
+                            </tr>
+                            <tr>
+                              <td>Kubëza nga betoni</td>
+                              <td>0.011</td>
+                            </tr>
+                            <tr>
+                              <td>Plastikë</td>
+                              <td>0.009</td>
+                            </tr>
+                            <tr>
+                              <td>Kanal i pastër natyror</td>
+                              <td>0.022</td>
+                            </tr>
+                            <tr>
+                              <td>Kanal natyror me barishte</td>
+                              <td>0.030</td>
+                            </tr>
+                            <tr>
+                              <td>Gypat PEHD</td>
+                              <td>0.013</td>
+                            </tr>
+                            <tr>
+                              <td>Beton i lëmuar</td>
+                              <td>0.011</td>
+                            </tr>
+                            <tr>
+                              <td>Beton i palëmuar</td>
+                              <td>0.013</td>
+                            </tr>
+                          </table>
+                        </div>
+                        
                         <br>
                         <div class="rrjedhja">
                           <p><b>Rrjedhja në kanale të hapura </b>paraqet lëvizjen e ujit në kanale të hapura me sipërfaqe të lirë ku vepron presioni atmosferik.</p>
@@ -399,21 +402,21 @@
                               <div class="col-lg-4">
                                   <!--Per me rregullu karten mos me prish height, ja dhojme si height imazhit, pra style = height dhe jo width-->
                                   <div class="card" style="height: 45rem;">
-                                      <h5 class="card-title text-center">Trapezoid channel</h5>
+                                      <h5 class="card-title text-center">Kanali trapez</h5>
                                       <br>
                                       <img src="OPEN CHANNELS/IMAGES/1.jpg" class="card-img-top" alt="TRAPEZOID_CHANNEL">
                                       <div class="card-body">
-                                              <label for="trap_base">Base B (m)</label><br>
+                                              <label for="trap_base">Baza B (m)</label><br>
                                               <input type="text" id="trap_base" required> <br>
-                                              <label for="trap_side">Sideline A (m)</label><br>
+                                              <label for="trap_side">Anësorja A (m)</label><br>
                                               <input type="text" id="trap_side" required><br>
-                                              <label for="trap_height">Height H (m)</label><br>
+                                              <label for="trap_height">Lartësia H (m)</label><br>
                                               <input type="text" id="trap_height" required><br>
-                                              <label for="trap_slope">Slope i (percentage)</label><br>
+                                              <label for="trap_slope">Ramja i (përqindje)</label><br>
                                               <input type="text" id="trap_slope" required><br>
-                                              <label for="trap_friction">Manning coefficient n (number)</label><br>
+                                              <label for="trap_friction">Koeficienti i Manning-ut n (numër)</label><br>
                                               <input type="text" id="trap_friction" required><br>
-                                              <button id="trap_calculation">Calculate</button><br>
+                                              <button id="trap_calculation">Llogarit</button><br>
                                               <label for="trap_Area" id="trap_Area"></label><br>
                                               <label for="trap_Perimeter" id="trap_Perimeter"></label><br>
                                               <label for="trap_Radius" id="trap_Radius"></label><br>
@@ -424,19 +427,19 @@
                               </div>
                               <div class="col-lg-4">
                                   <div class="card" style="height: 45rem;">
-                                      <h5 class="card-title text-center">RECTANGULAR_CHANNEL</h5>
+                                      <h5 class="card-title text-center">KANALI DREJTËKËNDËSH</h5>
                                       <br>
                                       <img src="OPEN CHANNELS/IMAGES/2.jpg" class="card-img-top" alt="RECTANGULAR_CHANNEL">
                                       <div class="card-body">
-                                              <label for="rec_base">Base B (m)</label><br>
+                                              <label for="rec_base">Baza B (m)</label><br>
                                               <input type="text" id="rec_base" required> <br>
-                                              <label for="rec_height">Height H (m)</label><br>
+                                              <label for="rec_height">Lartësia H (m)</label><br>
                                               <input type="text" id="rec_height" required><br>
-                                              <label for="rec_slope">Slope i (percentage)</label><br>
+                                              <label for="rec_slope">Ramja i (përqindje)</label><br>
                                               <input type="text" id="rec_slope" required><br>
-                                              <label for="rec_friction">Manning coefficient n (number)</label><br>
+                                              <label for="rec_friction">Koeficienti i Manning-ut n (numër)</label><br>
                                               <input type="text" id="rec_friction" required><br>
-                                              <button id="rec_calculation">Calculate</button><br>
+                                              <button id="rec_calculation">Llogarit</button><br>
                                               <label for="rec_Area" id="rec_Area"></label><br>
                                               <label for="rec_Perimeter" id="rec_Perimeter"></label><br>
                                               <label for="rec_Radius" id="rec_Radius"></label><br>
@@ -447,17 +450,17 @@
                               </div>
                               <div class="col-lg-4">
                                   <div class="card" style="height: 45rem;">
-                                      <h5 class="card-title text-center">HALF CIRCLE CHANNEL</h5>
+                                      <h5 class="card-title text-center">KANALI GJYSMËRRETHOR</h5>
                                       <br>
                                       <img src="OPEN CHANNELS/IMAGES/3.jpg" class="card-img-top" alt="HALFCIRCLE_CHANNEL">
                                       <div class="card-body">
-                                              <label for="hcircle_diam">Diameter (m)</label><br>
+                                              <label for="hcircle_diam">Diametri (m)</label><br>
                                               <input type="text" id="hcircle_diam" required> <br>
-                                              <label for="hcircle_slope">Slope i (percentage)</label><br>
+                                              <label for="hcircle_slope">Ramja i (percentage)</label><br>
                                               <input type="text" id="hcircle_slope" required><br>
-                                              <label for="hcircle_friction">Manning coefficient n (number)</label><br>
+                                              <label for="hcircle_friction">Koeficienti i Manning-ut n (numër)</label><br>
                                               <input type="text" id="hcircle_friction" required><br>
-                                              <button id="hcircle_calculation">Calculate</button><br>
+                                              <button id="hcircle_calculation">Llogarit</button><br>
                                               <label for="hcircle_Area" id="hcircle_Area"></label><br>
                                               <label for="hcircle_Perimeter" id="hcircle_Perimeter"></label><br>
                                               <label for="hcircle_Radius" id="hcircle_Radius"></label><br>
