@@ -25,10 +25,10 @@
     
     let Q2 = v2 * A1;
     
-    document.getElementById("hcircle_Area").innerHTML = "Area is: " + " " + A1.toFixed(2) + " " + "m2";
-    document.getElementById("hcircle_Perimeter").innerHTML = "Perimeter is: " + " " + P1.toFixed(2) + " " + "m";
-    document.getElementById("hcircle_Radius").innerHTML = "Radius is: " + " " + R1.toFixed(2) + " " + "m";
-    document.getElementById("hcircle_velocity").innerHTML = "Velocity is: " + " " + v2.toFixed(2) + " " + "m/s";
-    document.getElementById("hcircle_flow").innerHTML = "Flow is: " + " " + Q2.toFixed(2) + " " + "m3/s";
+    document.getElementById("hcircle_Area").innerHTML = "Sipërfaqja është: " + " " + A1.toFixed(2) + " " + "m2";
+    document.getElementById("hcircle_Perimeter").innerHTML = "Perimetri është: " + " " + P1.toFixed(2) + " " + "m";
+    document.getElementById("hcircle_Radius").innerHTML = "Rrezja hidraulike është: " + " " + R1.toFixed(2) + " " + "m";
+    document.getElementById("hcircle_velocity").innerHTML = "Shpejtësia është: " + " " + v2.toFixed(2) + " " + "m/s";
+    document.getElementById("hcircle_flow").innerHTML = "Prurja është: " + " " + Q2.toFixed(2) + " " + "m3/s";
 }
 

@@ -28,10 +28,10 @@
     
     let Q1 = v1 * Y;
     
-    document.getElementById("rec_Area").innerHTML = "Area is: " + " " + Y.toFixed(2) + " " + "m2";
-    document.getElementById("rec_Perimeter").innerHTML = "Perimeter is: " + " " + N.toFixed(2) + " " + "m";
-    document.getElementById("rec_Radius").innerHTML = "Radius is: " + " " + O.toFixed(2) + " " + "m";
-    document.getElementById("rec_velocity").innerHTML = "Velocity is: " + " " + v1.toFixed(2) + " " + "m/s";
-    document.getElementById("rec_flow").innerHTML = "Flow is: " + " " + Q1.toFixed(2) + " " + "m3/s";
+    document.getElementById("rec_Area").innerHTML = "Sipërfaqja është: " + " " + Y.toFixed(2) + " " + "m2";
+    document.getElementById("rec_Perimeter").innerHTML = "Perimetri është: " + " " + N.toFixed(2) + " " + "m";
+    document.getElementById("rec_Radius").innerHTML = "Rrezja hidraulike është: " + " " + O.toFixed(2) + " " + "m";
+    document.getElementById("rec_velocity").innerHTML = "Shpejtësia është: " + " " + v1.toFixed(2) + " " + "m/s";
+    document.getElementById("rec_flow").innerHTML = "Prurja është: " + " " + Q1.toFixed(2) + " " + "m3/s";
 }
 

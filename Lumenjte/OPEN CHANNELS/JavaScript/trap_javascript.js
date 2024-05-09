@@ -31,10 +31,10 @@
     
     let Q = v * X;
     
-    document.getElementById("trap_Area").innerHTML = "Area is: " + " " + X.toFixed(2) + " " + "m2";
-    document.getElementById("trap_Perimeter").innerHTML = "Perimeter is: " + " " + P.toFixed(2) + " " + "m";
-    document.getElementById("trap_Radius").innerHTML = "Radius is: " + " " + R.toFixed(2) + " " + "m";
-    document.getElementById("trap_velocity").innerHTML = "Velocity is: " + " " + v.toFixed(2) + " " + "m/s";
-    document.getElementById("trap_flow").innerHTML = "Flow is: " + " " + Q.toFixed(2) + " " + "m3/s";
+    document.getElementById("trap_Area").innerHTML = "Sipërfaqja është: " + " " + X.toFixed(2) + " " + "m2";
+    document.getElementById("trap_Perimeter").innerHTML = "Perimetri është: " + " " + P.toFixed(2) + " " + "m";
+    document.getElementById("trap_Radius").innerHTML = "Rrezja hidraulike është: " + " " + R.toFixed(2) + " " + "m";
+    document.getElementById("trap_velocity").innerHTML = "Shpejtësia është: " + " " + v.toFixed(2) + " " + "m/s";
+    document.getElementById("trap_flow").innerHTML = "Prurja është: " + " " + Q.toFixed(2) + " " + "m3/s";
 }
 
