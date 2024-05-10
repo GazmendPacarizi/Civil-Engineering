@@ -20,3 +20,27 @@ html {
    a.navbar-brand {
       font-size: 22px;
   }
+
+  p {
+    text-align: justify;
+  }
+
+  .skema_kanatm img {
+    display: block;
+    margin: auto;
+  }
+
+  .div1 img {
+    display: block;
+    margin: auto;
+}
+
+  @media screen and (min-width: 768px) {
+    .skema_kanatm img {
+       width: 85%;
+      }
+
+      .div1 img {
+        width: 50%;
+      }
+  }
