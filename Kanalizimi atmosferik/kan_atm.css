@@ -35,6 +35,10 @@ html {
     margin: auto;
 }
 
+table th, tr, td {
+  text-align: center;
+}
+
   @media screen and (min-width: 768px) {
     .skema_kanatm img {
        width: 85%;
