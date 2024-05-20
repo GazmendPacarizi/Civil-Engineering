@@ -39,6 +39,27 @@ table th, tr, td {
   text-align: center;
 }
 
+.pk1 img {
+  display: block;
+}
+
+.pk2 img {
+  display: block;
+}
+
+.pk3 img {
+  display: block;
+}
+
+.imin table {
+  width: 50%;
+  margin: auto;
+}
+
+ul li {
+  text-align: justify;
+}
+
   @media screen and (min-width: 768px) {
     .skema_kanatm img {
        width: 85%;
@@ -47,4 +68,9 @@ table th, tr, td {
       .div1 img {
         width: 50%;
       }
+
+      .ngarkesat_kapakeve table {
+        width: 80%;
+        margin: auto;
+    }
   }
