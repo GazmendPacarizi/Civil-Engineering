@@ -60,6 +60,10 @@ ul li {
   text-align: justify;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+}
+
   @media screen and (min-width: 768px) {
     .skema_kanatm img {
        width: 85%;
@@ -70,7 +74,7 @@ ul li {
       }
 
       .ngarkesat_kapakeve table {
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
   }
