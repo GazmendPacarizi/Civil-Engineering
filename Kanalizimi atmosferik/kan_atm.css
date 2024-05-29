@@ -64,6 +64,16 @@ ul li {
   background-color: black;
 }
 
+.sit_kanatm img {
+  display: block;
+  margin: auto;
+}
+
+.detali_shkarkimi img {
+  display: block;
+  margin: auto;
+}
+
   @media screen and (min-width: 768px) {
     .skema_kanatm img {
        width: 85%;
@@ -77,4 +87,20 @@ ul li {
         width: 100%;
         margin: auto;
     }
+
+    .sit_kanatm img {
+      width: 70%;
+    }
+
+    .detali_shkarkimi img {
+      width: 70%;
+    }
+
   }
+
+  @media screen and (max-width: 767px) {
+    .imin table {
+      width: 90%;
+      margin: auto;
+    }
+  } 
